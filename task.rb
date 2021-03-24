@@ -23,4 +23,10 @@ class Task
     @name = name
     @description = description
   end
+
+  def to_s
+    p self
+    "id no# #{id}: #{name}"
+  end
 end
+puts 'task loaded'
